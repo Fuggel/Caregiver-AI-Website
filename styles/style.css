@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 16px/26px Arial, sans-serif;
+  padding: 40px;
+}
+
+.headline {
+  margin: 20px auto 80px auto;
+}
+
+.headline h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section a {
+  color: #0d54be;
+  transition: 0.2s ease;
+}
+
+.section a:hover {
+  color: #0066ff;
+}
+
+.section h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.section p {
+  color: #666;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-color: #333;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
